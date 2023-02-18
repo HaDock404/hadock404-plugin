@@ -1,0 +1,114 @@
+.wordList {
+    color: #4d4f4e;
+}
+
+.wordList:hover {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+/*test**/
+.simple-form-group {
+    margin-bottom: 1rem;
+  }
+  .simple-text-label {
+    display: block;
+    color: red;
+  }
+  .simple-text-input {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+
+/****/
+
+
+/*.dropdown {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.unroll {
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    width: 170px;
+}
+
+.menucache {
+    width: 120px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: modale;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    position: absolute;
+    z-index: -1;
+    background-color: none;
+    top: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.triage {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation-name: modaleX;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    border-bottom: 1px solid white;
+}
+
+.triage:hover {
+    background-color: #95d192;
+    color: black;
+    width: 100%;
+}
+
+.test1 .test2 .test3 {
+    animation-duration: 10000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes modale {
+    from {
+         height: 0;
+    }
+    to {
+        height: 150px;
+    }
+}
+
+@keyframes modaleX {
+    from {
+         
+         opacity: 0;
+    }
+    to {
+        
+        opacity: 1;
+    }
+}
+*/
