@@ -35,7 +35,10 @@ function Modal(props) {
       backgroundColor: "".concat(props.modalBackgroundColor),
       width: "".concat(props.modalWidth),
       borderBottomRightRadius: "10px",
-      borderBottomLeftRadius: "10px"
+      borderBottomLeftRadius: "10px",
+      position: "absolute",
+      maxHeight: "".concat(props.modalMaxheight),
+      overflow: "scroll"
     }
   }, props.wordsList.map(function (word) {
     return /*#__PURE__*/_react["default"].createElement("div", {
@@ -82,7 +85,8 @@ function HaDock404Plugin(props) {
     modalWidth: props.dropdownWidth,
     wordsList: props.tabWordsList,
     setClickedElement: props.onChange,
-    data: data
+    data: data,
+    modalMaxheight: props.modalMaxheight
   }));
 }
 var wordsList = [{
@@ -91,6 +95,30 @@ var wordsList = [{
   word: "Washington"
 }, {
   word: "California"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
+}, {
+  word: "Alabama"
+}, {
+  word: "Washington"
 }];
 HaDock404Plugin.defaultProps = {
   dropdownMessage: "Choose",
@@ -102,6 +130,7 @@ HaDock404Plugin.defaultProps = {
   dropdownFontsize: "16px",
   dropdownBorderradius: "5px",
   modalBackgroundColor: "#cfd4d1",
+  modalMaxheight: "100px",
   tabWordsList: wordsList
 };
 
